@@ -98,7 +98,7 @@ h2 {
     align-items: center;
     padding-bottom: 40px;
     margin: -10px 0 10px 0;
-    height: 45vh;
+    height: 55vh;
 }
  
 .info-col {
@@ -128,3 +128,27 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 85px;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    width: 60%;
+}
+
+#source {
+    font-size: 21px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+}
+
