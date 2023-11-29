@@ -152,3 +152,51 @@ h2 {
     text-align: right;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 75px;
+}
+
+.cta-text {
+    color: #E5E7EB;
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.cta-text p {
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+#cta-btn {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 40px;
+    border: solid 2px #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: auto 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    height: 8vh;
+}
